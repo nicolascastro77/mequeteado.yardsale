@@ -1,0 +1,212 @@
+:root{
+    --white: #FFFFFF;
+    --black: #000000;
+    --dark: #232830;
+    --very-light-pink: #C7C7C7;
+    --text-input-field: #F7F7F7;
+    --hospital-green: #ACD9B2;
+}
+
+body{
+    margin:0;
+    font-family: 'Quicksand', sans-serif;
+    padding: 0;
+}
+
+.imgnav{
+    height: 40px;
+    margin-right: 20px;
+}
+.nav-item{
+ margin-left: 40px;
+}
+.navbar{
+    /* top | right | bottom | left */
+padding: 20px 100px 20px 100px;
+/* margin-bottom: 200px; */
+}
+.navbar a{
+    color: var(--very-light-pink);
+    font-size: 14pt;
+    font-weight: 400;
+}
+.nav-item>a:hover{
+  border: var(--hospital-green) 1px solid;
+  border-radius: 10px;
+  color: var(--hospital-green);
+}
+.sigbtn>a{
+  color: var(--hospital-green);
+}
+
+.abs-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+  }
+
+.centrado{
+  text-align: center; 
+  display: inline-block;
+  width: 100%; 
+}
+.centrado>p{
+  color: var(--very-light-pink);
+  font-weight: 400;
+}
+.centrado>h1{
+  font-weight: bold;
+  font-size:larger;
+  margin-bottom: 10px;
+}
+
+  .myaccount{
+    font-weight: bold;
+    font-size:larger;
+    margin-bottom: 50px;
+  }
+  
+
+
+  .form-label{
+    font-weight: bold;
+  }
+
+  .form-control{
+    border: none;
+    background-color: var(--text-input-field);
+    color: var(--very-light-pink);
+    
+  }
+
+  .btn-login{
+    background-color: var(--hospital-green) ;
+    border: none;
+    width: 100%;
+    height: 70px;
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+  }
+  .btn-signup{
+    background-color: var(--white) ;
+    border-color: var(--hospital-green);
+    width: 100%;
+    height: 70px;
+    color: var(--hospital-green);
+    font-weight: bold;
+    font-size: larger;
+  }
+
+  .form>a{
+    margin-top: 40px;;
+    margin-bottom: 60px;;
+    color: var(--hospital-green);
+  }
+
+
+  .filtro>p{
+    font-weight: bold;
+    margin: 0px;
+    margin-right: 20px;
+  }
+  .filtro>.btn{
+    margin: 0px;
+    padding: 0px;
+    color: var(--very-light-pink);
+  }
+
+.orders>a{
+  font-weight: bold;
+  color: var(--black);
+}
+.orders-sign>a{
+  font-weight: bold;
+  color: var(--hospital-green);
+  margin: 20px;
+}
+
+.search>.input-group-text{
+  background-color: var(--text-input-field);
+  border: none;
+  margin: 0;
+  padding: 10px 0px 10px 10px;
+}
+
+.dropdown-item{
+  color: var(--very-light-pink);
+}
+
+.search{
+  margin-bottom: 30px;
+}
+.card-img-top{
+  border-radius: 50px;
+  height: 240px;
+  width: 240px;
+}
+.productos>.card{
+  border: none;
+  border-radius: 0px;
+
+}
+.contenido{
+  display: flex;
+  justify-content:space-between;
+}
+.info>h2{
+  font-weight: bold;
+  font-size: medium;
+}
+.info>p{
+  font-size: medium;
+}
+
+.btnaddcart{
+  border: none;
+  background:none;
+
+}
+
+.email{
+  margin: 80px;
+}
+.email>img{
+  width: 150px;
+  height: auto;
+}
+.centrado>a{
+text-decoration: none;
+color: var(--hospital-green);
+}
+/* .login{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+.form-container{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    width: 300px;
+}
+.logo{
+    width: 150px;
+    margin-bottom: 48px;
+    justify-self: center;
+}
+.title{
+    font-size: var(--lg);
+    margin-bottom: 12px;
+    text-align: center;
+}
+.subtitle{
+color: var(--very-light-pink);
+font-size: var(--md);
+font-weight: 300;
+margin: 0;
+margin-bottom: 32px;
+text-align: center;
+} */
+
